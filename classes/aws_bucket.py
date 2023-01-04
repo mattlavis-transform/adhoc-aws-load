@@ -2,9 +2,6 @@ import boto3
 import os
 from dotenv import load_dotenv
 
-from classes.enums import CommonString
-from classes.sendgrid_mailer import SendgridMailer
-
 
 class AwsBucket(object):
     def __init__(self):
